@@ -1,0 +1,17 @@
+FROM store/internetsystemsconsortium/bind9:9.11
+
+RUN apt-get update
+
+RUN apt-get install -y bind9utils
+
+RUN apt-get install iputils-ping
+
+RUN apt-get install nano
+
+COPY db.local /etc/bind/db.local
+
+COPY named.conf.local /etc/bind/named.conf.local
+
+COPY named.conf.options /etc/bind/named.conf.options
+
+EXPOSE 53/udp 53/tcp

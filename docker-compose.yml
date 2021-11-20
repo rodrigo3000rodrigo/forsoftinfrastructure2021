@@ -1,0 +1,34 @@
+version: '3.3'
+
+services:
+  tomcat:
+    build: ./tomcat/
+    container_name: tomcat
+  
+  nginx:
+    build: ./nginx/
+    container_name: nginx
+    depends_on:
+      - tomcat
+    ports:
+    - "80:80"
+    - "443:443"
+
+  mysql:
+    build: ./mysql/
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: Devops1*
+      MYSQL_DATABASE: forsoft
+      MYSQL_USER: datasoft
+      MYSQL_PASSWORD: devdados21
+    ports:
+    - "3306:3306"
+  
+  bind9:
+    build: ./dns/
+    container_name: dns
+    ports:
+    - "53:53/udp"
+    - "53:53/tcp"
+    - "127.0.0.1:953:953/tcp"
