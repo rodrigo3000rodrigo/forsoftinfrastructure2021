@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="_css/style-global.css">
+    <script type="text/javascript" src="_js/ui-112.js"></script>
+
+    <!--Adicione ao título o nome da sua página-->
+    <title>CIVA - Cadastrar Gestor </title>
+</head>
+
+<body id="container-manager">
+    <div id="container-menu">
+
+        <div class="profile-info">
+            <!--Parte da foto e dados do usuário-->
+            <div class="photo-profile">
+                <img src="" alt="">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>Cargo</p>
+        </div>
+        <nav class="menu-sidebar">
+            <!--Opções do Menu-->
+            <ul>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-107.html" class="btn"><span class="material-icons-round">people_alt</span>Gerenciar usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-115.html"><span class="material-icons-round">flag</span>Gerenciar país</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-120.html"><span class="material-icons-round">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-121.html"><span class="material-icons-round">vaccines</span>Gerenciar vacina</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-123.html"><span class="material-icons-round">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav>
+
+         <!-- RODAPÉ MENU -->
+    <div class="container-rodape-menu"><a href="" class=""><img src="_assets/Logo.svg" alt="">F.A. © 2021</a></div>
+
+
+    </div>
+
+    <div id="container-main">
+        <!--Não excluir, pois isso modifica a formatação-->
+
+        <div id="wrapper-main">
+
+            <header class="container-header">
+                <h3>Cadastrar Gestor</h3>
+            </header>
+
+            <div class="container-middle">
+                <div class="box-wrapper">
+
+                    <!-- CONTAINER CABEÇALHO -->
+                    <header class="box-header">Dados Gestor</header>
+
+                    </header>
+                    <!-- CONTAINER DO MEIO -->
+                    <form class="box-middle box-middle-form scroll-default">
+
+                        <div class="input-container">
+                            <label for="">Nome</label>
+                            <input type="text" placeholder="Ex: Maria" class="input-default">
+                        </div>
+                        <div class="input-container">
+                            <label for="">Sobrenome</label>
+                            <input type="text" placeholder="Ex: Almeida" class="input-default">
+                        </div>
+                        <div class="input-container">
+                            <label for="">Identidade</label>
+                            <input type="number" placeholder="000.000.000-00" class="input-default">
+                        </div>
+                        <div class="input-container">
+                            <label for="">Data de nascimento</label>
+                            <input type="date" placeholder="00/00/00" class="input-default">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="">Contato</label>
+                            <div class="container-row-number">
+                            <input type="text" placeholder="55+" class="input-default input-number-ddi">
+                            <input type="text" placeholder="(00) 9 0000-0000" class="input-default input-number-cel">
+                            </div>
+                        </div>
+                            
+                        <div class="input-container ">
+                            <label for="">ID País</label>
+                            <input type="text" placeholder="Ex: 123456789" class="input-default">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="">Email</label>
+                            <input type="email" placeholder="Ex: nome@mail.com" class="input-default">
+                        </div>
+
+
+                    </form>
+
+                </div>
+
+                <div class="container-bottom">
+                    <a href="ui-111.html"><button type="button" class="btn-default  d-grey">Voltar</button></a>
+                    <button type="submit" form="box-middle" class="btn-default  d-coral" id="button-adjust">Cadastrar</button>
+                </div>
+                
+            </div>
+        </div>
+</body>
+
+</html>

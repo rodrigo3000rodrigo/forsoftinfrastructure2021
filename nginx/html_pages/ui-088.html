@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIVA - Painel Profissional de Saúde</title>
+    
+    <link rel="shortcut icon" href="_assets/favicon-gs.svg" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+    rel="stylesheet">
+    
+    <link rel="stylesheet" href="_css/style-global.css">
+    
+
+</head>
+<body id="container-manager">
+
+    <div id="container-menu">
+                        
+    <!-- PERFIL USUARIO -->
+    <div class="profile-info">
+        <div class="photo-profile">
+            <img src="" alt="foto perfil">
+            </div>
+        <p class="name-user">Nome Sobrenome</p>
+        <p>Cargo</p>
+    </div>
+
+    <!-- NAVEGAÇÃO ENTRE PAGINAS -->
+    <nav class="menu-sidebar">
+        <ul>
+            <li class="item-menu active-item-menu"><i></i><i></i>
+                <a href="ui-074.html" class="btn"><span class="material-icons-round">people_alt</span>Gerenciar vacinação</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="ui-093.html"><span class="material-icons-round">place</span>Gerenciar unidade</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="ui-096.html"><span class="material-icons-round">contact_page</span>Gerenciar vacinação</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="ui-098.html"><span class="material-icons-round">assessment</span>Painel relatório</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="ui-099.html"><span class="material-icons-round">vaccines</span>Painel relatório</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="ui-102.html"><span class="material-icons-round">account_circle</span>Perfil</a>
+            </li>
+        </ul>
+    </nav>
+    
+     <!-- RODAPÉ MENU -->
+     <div class="container-rodape-menu"><a href="" class=""><img src="_assets/icon-civa-footer.svg" alt="">F.A. © 2021</a></div>
+    
+    </div>
+
+        <div id="container-main">
+
+            <div id="wrapper-main">
+
+                <header class="container-header"><h3>Painel Profissional de Saúde</h3></header>
+                
+                <div class="container-middle">
+
+                    
+<!-- CONTAINER BOX'S --> 
+<div class="box-container">
+    <!-- CONTAINER BOX LEFT FORM -->
+        <div class="box-wrapper">
+        <!-- CONTAINER CABEÇALHO -->
+            <header class="box-header">Dados Profissional de saúde
+            </header>
+            <!-- CONTAINER DO MEIO -->
+            <form class="box-middle box-middle-form scroll-default" id="form-panel-profissionalsaude">
+    
+                <div class="input-container">
+                <label for="name">Nome</label>
+                <input type="text" id="name" value="Maria Souza Almeida" class="input-default">
+                </div>
+                <div class="input-container">
+                <label for="last-name">Sobrenome</label>
+                <input type="text" id="last-name" value="Maria Souza Almeida" class="input-default">
+                </div>
+                <div class="input-container">
+                <label for="code-civa">Código CIVA</label>
+                <input type="text" id="code-civa" value="BRA5513456789" class="input-default">
+                </div>
+                <div class="input-container">
+                <label for="identify">Identidade</label>
+                <input type="text" id="identify" value="123.456.789.01" class="input-default">
+                </div>
+                <div class="input-container">
+                <label for="date-birth">Data de nascimento</label>
+                <input type="date" id="date-birth" value="1994-08-21" class="input-default">
+                </div>
+                <div class="input-container">
+                <label for="crm">CRM</label>
+                <input type="text" id="crm" value="1234/RJ" class="input-default">
+                </div>
+                
+                <div class="input-container">
+                <label for="country">País de origem</label>
+                <div class="select-default">
+                <select required id="country">
+                <option value=""  disabled>Selecionar</option>
+                <option value="1" selected>EUA</option>
+                <option value="2">Brasil</option>
+                <option value="3">Alemanha</option>
+                </select>
+                <span class="material-icons-round icon-select">expand_more</span>
+                </div>
+                </div>
+                
+                <div class="input-container">
+                <label for="subdivision-1">Subdivisão 1</label>
+                <div class="select-default">
+                <select required id="subdivision-1">
+                <option value=""  disabled>Selecionar</option>
+                <option value="1" selected>Rio de Janeiro</option>
+                <option value="2">São Paulo</option>
+                <option value="3">Minas Gerais</option>
+                </select>
+                <span class="material-icons-round icon-select">expand_more</span>
+                </div>
+                </div>
+                
+                <div class="input-container">
+                <label for="subdivision-2">Subdivisão 2</label>
+                <div class="select-default">
+                <select required id="subdivision-2">
+                <option value=""  disabled>Selecionar</option>
+                <option value="1" selected>Rio de Janeiro</option>
+                <option value="2">Niterói</option>
+                <option value="3">São Gonçalo</option>
+                </select>
+                <span class="material-icons-round icon-select">expand_more</span>
+                </div>
+                </div>
+                    
+                <div class="input-container">
+                    <label for="address">Logradouro</label>
+                    <div class="container-row">
+                    <div class="select-default input-address">
+                    <select required id="address">
+                    <option value="1" >Rua</option>
+                    <option value="2" selected>Av.</option>
+                    </select>
+                    <span class="material-icons-round icon-select">expand_more</span>
+                    </div>
+                    <input type="text" value="Rio Branco" class="input-default input-street" id="street">
+                    </div>
+                    </div>
+                    
+                    <div class="input-container">
+                        <label for="">Contato</label>
+                        <div class="container-row-number">
+                        <input type="text" value="55+" class="input-default input-number-ddi" id="number-ddi">
+                        <input type="text" value="(21) 9 1234-5678" class="input-default input-number-cel" id="number-cel">
+                        </div>
+                        </div>
+                        
+
+                <div class="input-container">
+                <label for="email">Email</label>
+                <input type="text" id="email" value="maria@gmail.com" class="input-default">
+                </div> 
+    
+            </form>
+    <!-- CONTAINER INFERIOR BOTOES -->
+            <div class="box-bottom">
+                <div class="toggle-container">
+                <div class="toggle-btn">
+                <div class="inner-circle"></div>
+                <span class="toggle-name">Ativado</span>
+                </div> 
+                </div>
+                <a href="../_ui089/ui-089.html"><button class="btn-default btn-small d-grey-out">Redefinir senha</button></a>
+                <button class="btn-default btn-small d-red" id="delete-user">Excluir</button>
+            </div>
+        </div>
+    
+        <!-- CONTAINER BOX RIGHT TABLE-->
+        <div class="box-wrapper">
+            <!-- CONTAINER CABEÇALHO -->
+            <header class="box-header">Unidades vinculadas</header>
+            <!-- CONTAINER DO MEIO -->
+            <div class="box-middle box-middle-table box-middle-max scroll-default">
+                
+                <table class="table-default">
+                  <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Estado</th>
+                        <th>CP</th>
+                        <th>Identificador</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td>Hopital Pan</td>
+                        <td>Rio de Janeiro</td>
+                        <td>12016-102</td>
+                        <td>215648</td>
+                    </tr>
+                    <tr>
+                        <td>Hopital Pan</td>
+                        <td>Rio de Janeiro</td>
+                        <td>12016-102</td>
+                        <td>215648</td>
+                    </tr>
+                    <tr>
+                        <td>Hopital Pan</td>
+                        <td>Rio de Janeiro</td>
+                        <td>12016-102</td>
+                        <td>215648</td>
+                    </tr>
+                </tbody>
+                </table>
+                
+            </div>
+            <!-- CONTAINER INFERIOR BOTOES -->
+            <div class="box-bottom">
+                <a href=""><button class="btn-default btn-small d-green">Vincular Unidade</button></a>
+            </div>
+        </div>
+        
+    
+    </div>
+            
+
+                </div>
+                
+                <div class="container-bottom">
+
+                    <a href="ui-086.html"><button class="btn-default d-grey">Voltar</button></a>
+                    <button class="btn-default d-coral" form="form-panel-profissionalsaude">Salvar</button>
+                </div>
+                
+            </div>    
+
+        </div>
+
+
+
+<script src="_js/toggle-botton.js"></script>
+<script src="_js/check-form.js"></script>
+<script src="_js/excluir-alert.js"></script>
+</body>
+
+        
+</html>

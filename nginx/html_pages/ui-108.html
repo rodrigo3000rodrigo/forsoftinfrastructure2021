@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="_css/style-global.css">
+    <link rel="shortcut icon" href="_assets/favicon.ico" type="image/x-icon">
+
+
+    <!--Adicione ao título o nome da sua página-->
+    <title>CIVA - Painel Gestor OMS </title>
+
+
+</head>
+
+<body id="container-manager">
+    <div id="container-menu">
+
+        <div class="profile-info">
+            <!--Parte da foto e dados do usuário-->
+            <div class="photo-profile">
+                <img src="" alt="">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>Cargo</p>
+        </div>
+        <nav class="menu-sidebar">
+            <!--Opções do Menu-->
+            <ul>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-107.html" class="btn"><span class="material-icons-round">people_alt</span>Gerenciar
+                        usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-115.html"><span class="material-icons-round">flag</span>Gerenciar país</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-120.html"><span class="material-icons-round">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-121.html"><span class="material-icons-round">vaccines</span>Gerenciar vacina</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-123.html"><span class="material-icons-round">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- RODAPÉ MENU -->
+        <div class="container-rodape-menu"><a href="" class=""><img src="_assets/Logo.svg" alt="">F.A. © 2021</a></div>
+
+    </div>
+
+    <div id="container-main">
+        <!--Não excluir, pois isso modifica a formatação-->
+
+        <div id="wrapper-main">
+
+            <header class="container-header">
+                <h3>Painel Gestor OMS</h3>
+            </header>
+
+            <div class="container-middle">
+                <div class="box-wrapper ">
+
+                    <!-- CONTAINER CABEÇALHO -->
+                    <header class="box-header">Dados Gestor OMS</header>
+
+                    <!-- CONTAINER DO MEIO -->
+                    <form action="" method="POST" id="form1">
+                        <div class="box-middle box-middle-form">
+
+                            <div class="input-container">
+
+                                <label for="">Nome</label>
+                                <input type="text" placeholder="" value="Maria" class="input-default" id="name">
+                            </div>
+                            <div class="input-container">
+
+                                <label for="">Sobrenome</label>
+                                <input type="text" placeholder="" value="Almeida" class="input-default" id="name">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Código CIVA</label>
+                                <input type="text" placeholder="" value="BR5513456789"disabled class="input-default" id="civa">
+                            </div>
+
+
+                            <div class="input-container">
+                                <label for="">Identidade</label>
+                                <input type="text" placeholder="" value="123.456.789.01" class="input-default" id="id">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Data de nascimento</label>
+                                <input type="date" placeholder="" value="2021-07-29" class="input-default" id="birthdate">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Contato</label>
+                                <div class="container-row-number">
+                                    <input type="text" placeholder="" value="+55" class="input-default input-number-ddi">
+                                    <input type="text" placeholder="" value="9 9554-4112" class="input-default input-number-cel">
+                                </div>
+                            </div>
+
+                            <div class="input-container ">
+                                <label for=" " id="homeland ">País de origem</label>
+                                <div class="select-default ">
+                                    <select required>
+                                        <option value=" " selected disabled>Selecionar</option>
+                                        <option value="1 ">Brasil</option>
+                                        <option value="2 ">Estados Unidos</option>
+                                        <option value="3 ">Canadá</option>
+                                        <option value="3 ">Austrália</option>
+                                    </select>
+                                    <span class="material-icons-round icon-select ">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="input-container ">
+                                <label for=" ">Email</label>
+                                <input type="text " placeholder="" value="nome@mail.com" class="input-default " id="mail ">
+                            </div>
+
+                        </div>
+                    </form>
+
+                    <!-- CONTAINER INFERIOR BOTOES -->
+                    <div class="box-bottom ">
+                        <div class="toggle-container ">
+                            <div class="toggle-btn ">
+                                <div class="inner-circle "></div>
+                                <span class="toggle-name ">Ativado</span>
+                            </div>
+                        </div>
+                        <a href="ui-109.html "><button type="button "
+                                class="btn-default btn-small d-grey-out ">Redefinir senha</button></a>
+                        <button type="button " id="botaoExcluir " class="btn-default btn-small d-red ">Excluir</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="container-bottom ">
+
+                <a href="ui-107.html "><button type="button " class="btn-default d-grey " id="voltar ">Voltar</button></a>
+                <button form="form1" type="submit" class="btn-default d-coral btn-orange">Salvar</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="_js/ui-108.js"></script>
+</body>
+
+</html>

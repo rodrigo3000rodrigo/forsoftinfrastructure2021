@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="_css/style-global.css">
+    <link rel="shortcut icon" href="_assets/favicon.ico" type="image/x-icon">
+
+
+    <!--Adicione ao título o nome da sua página-->
+    <title>CIVA - Redefinição de Senha do Gerente</title>
+</head>
+
+<body id="container-manager">
+    <div id="container-menu">
+
+        <div class="profile-info">
+            <!--Parte da foto e dados do usuário-->
+            <div class="photo-profile">
+                <img src="" alt="">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>Gestor</p>
+        </div>
+        <nav class="menu-sidebar">
+            <!--Opções do Menu-->
+            <ul>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-081.html" class="btn"><span class="material-icons">people_alt</span>Gerenciar
+                        usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-093.html"><span class="material-icons">place</span>Gerenciar unidade</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-096.html"><span class="material-icons">contact_page</span>Gerenciar vacinação</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-098.html"><span class="material-icons">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-099.html"><span class="material-icons">vaccines</span>Gerenciar vacina</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-102.html"><span class="material-icons">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--RODAPÉ MENU-->
+
+        <div class="container-rodape-menu"><a href="https://www.forsoftacademy.com.br"> <img
+                    src="_assets/icon-civa-footer.svg" alt="FA">&nbspFA &#169 2021</a> </div>
+
+    </div>
+
+    <div id="container-main">
+        <!--Não excluir, pois isso modifica a formatação-->
+
+        <div id="wrapper-main">
+            <header class="container-header">
+                <h3>Redefinir senha</h3>
+            </header>
+
+            <div class="container-header">
+                <p> Insira a nova senha abaixo.</p>
+            </div>
+            <div class="container-middle">
+
+                <form id="form1" action="">
+
+                    <div class="input-container">
+                        <label for="">Senha</label>
+                        <input type="password" id="password" placeholder="Digite a senha" class="input-default">
+                    </div>
+                    <div class="input-container">
+                        <label for="">Confirme a Senha</label>
+                        <input type="password" id="password2" placeholder="Repita a senha" class="input-default">
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="container-bottom ">
+                <div class="btns">
+                    <a href="ui-080.html"><button id="voltar" class="btn-default  d-grey">Voltar</button></a>
+                    <input type="submit" form="form1" class="btn-default  d-coral" value="Salvar">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="_js/ui-081.js"></script>
+</body>
+
+</html>

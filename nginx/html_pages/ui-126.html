@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="_css/style-global.css">
+
+    <!--Adicione ao título o nome da sua página-->
+    <title>CIVA - UI126</title>
+</head>
+
+<body id="container-manager">
+    <div id="container-menu">
+
+        <div class="profile-info">
+            <!--Parte da foto e dados do usuário-->
+            <div class="photo-profile">
+                <img src="" alt="">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>Cargo</p>
+        </div>
+        <nav class="menu-sidebar">
+            <!--Opções do Menu-->
+            <ul>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-107.html" class="btn"><span class="material-icons">people_alt</span>Gerenciar usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-115.html"><span class="material-icons">place</span>Gerenciar unidade</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href=""><span class="material-icons">contact_page</span>Gerenciar vacinação</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-120.html"><span class="material-icons">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-121.html"><span class="material-icons">vaccines</span>Gerenciar vacina</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-123.html"><span class="material-icons">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container-rodape-menu">
+            <a href="" class=""><img src="_assets/logo-civa.png" alt="">F.A. 2021</a>
+        </div>
+
+    </div>
+
+    <div id="container-main">
+        <!--Não excluir, pois isso modifica a formatação-->
+
+        <div id="wrapper-main">
+
+            <header class="container-header">
+                <h1>Meus dados</h1>
+            </header>
+
+            <div class="container-middle">
+                <div class="box-wrapper">
+                    <!-- CONTAINER CABEÇALHO -->
+                    <header class="box-header">Meus dados</header>
+
+                    <!-- CONTAINER DO MEIO -->
+
+                    <form id="dados" method="get" class="box-middle box-middle-form">
+                        <div class="input-container">
+                            <label for="nCompleto">Nome </label>
+                            <input type="text" id="nome" placeholder="Maria" class="input-default">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="nCiva">Sobrenome</label>
+                            <input type="text" id="sobrenome" placeholder="Almeida" class="input-default">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="nasc">Código CIVA</label>
+                            <input type="text" placeholder="BRA5513456789" class="input-default" disabled>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="idUser">Identidade</label>
+                            <input type="text" id="identidade" placeholder="123.456.789.01" class="input-default" disabled>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="origem">Data de nascimento</label>
+                            <input type="date" id="data-nascimento" placeholder="" class="input-default">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="cargo">Cargo</label>
+                            <input type="text" id="cargo" placeholder="Profissional de Saúde" class="input-default" disabled>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="email">País de Origem</label>
+                            <div class="select-default">
+                                <select required id="pais-de-origem">
+                                    <option id="country" value="" selected disabled>Selecionar</option>
+                                    <option value="1">Brasil</option>
+                                    <option value="2">Argentina</option>
+                                    <option value="3">Chile</option>
+                                    </select>
+                                <span class="material-icons-round icon-select">expand_more</span>
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="contato">Subdivisão 1</label>
+                            <div class="select-default">
+                                <select required id="subdivisao-1">
+                                    <option id="adress" value="" selected disabled>Selecionar</option>
+                                    <option value="1">Rio de Janeiro</option>
+                                    <option value="2">São Paulo</option>
+                                    <option value="3">Minas Gerais</option>
+                                </select>
+                                <span class="material-icons-round icon-select">expand_more</span>
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="contato">Subdivisão 2</label>
+                            <div class="select-default">
+                                <select required id="subdivisao-2">
+                                    <option value="" selected disabled>Selecionar</option>
+                                    <option value="1">Rio de Janeiro</option>
+                                    <option value="2">Niterói</option>
+                                    <option value="3">Bangu</option>
+                                </select>
+                                <span class="material-icons-round icon-select">expand_more</span>
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="">Logradouro</label>
+                            <div class="container-row">
+                                <div class="select-default input-address">
+                                    <select required id="logradouro">
+                                        <option value="1" selected>Rua</option>
+                                        <option value="2">Av.</option>
+                                    </select>
+                                    <span class="material-icons-round icon-select">expand_more</span>
+                                </div>
+                                <input type="text" placeholder="Jansen de Melo" class="input-default input-street">
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="">Contato</label>
+                            <div class="container-row-number">
+                                <input type="text" id="contato" placeholder="55+" class="input-default input-number-ddi">
+                                <input type="text" id="contato" placeholder="(21) 9 1234-5678" class="input-default input-number-cel">
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <label>Email</label>
+                            <input id="email" type="text" placeholder="maria@gmail.com" class="input-default">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="container-bottom">
+                <a href="/ui-123.html"> <button class="btn-default d-grey">Voltar</button></a>
+                <button type="submit" form="dados" class="btn-default d-coral">Salvar</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+
+<script src="_js/ui-126.js"></script>
+
+</html>

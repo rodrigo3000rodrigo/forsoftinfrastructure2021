@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <link rel="stylesheet" href="_css/style-global.css">
+
+
+    <title>CIVA - Painel Vacina</title>
+</head>
+
+<body id="container-manager">
+    <div id="container-menu">
+
+        <div class="profile-info">
+
+            <div class="photo-profile">
+                <img src="" alt="">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>Cargo</p>
+        </div>
+        <nav class="menu-sidebar">
+            <ul>
+                <li class="item-menu "><i></i><i></i>
+                    <a href="ui-107.html" class="btn"><span class="material-icons">people_alt</span>Gerenciar usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-115.html"><span class="material-icons">flag</span>Gerenciar país</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-120.html"><span class="material-icons">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-121.html"><span class="material-icons">vaccines</span>Gerenciar vacina</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-123.html"><span class="material-icons">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- RODAPÉ MENU -->
+        <div class="container-rodape-menu">
+            <a href="" class="">
+                <img src="_assets/Logo.svg" alt="">F.A. © 2021</a>
+        </div>
+    </div>
+
+
+    <div id="container-main">
+        <!--Não excluir, pois isso modifica a formatação-->
+
+        <div id="wrapper-main">
+
+            <header class="container-header">
+                <h2>Painel Vacina</h2>
+            </header>
+
+            <div class="container-middle">
+                <!-- CONTAINER BOX'S -->
+                <div class="box-container">
+                    <!-- CONTAINER BOX LEFT FORM -->
+                    <div class="box-wrapper">
+                        <!-- CONTAINER CABEÇALHO -->
+                        <header class="box-header">Dados Vacina
+
+                        </header>
+                        <!-- CONTAINER DO MEIO -->
+                        <form class="box-middle box-middle-form scroll-default">
+
+                            <div class="input-container">
+                                <label for="">ID Vacina</label>
+                                <input type="text" placeholder="123456789" class="input-default">
+
+                                <label>Vacina</label>
+                                <input type="text" placeholder="Coronavac" class="input-default">
+                            </div>
+                            <div class="input-container">
+                                <label for="">Dose</label>
+                                <input type="text" placeholder="2 doses" class="input-default">
+
+                                <label>Laboratório</label>
+                                <input type="text" placeholder="Sinovac" class="input-default">
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <!-- CONTAINER BOX RIGHT TABLE-->
+                    <div class="box-wrapper">
+                        <!-- CONTAINER CABEÇALHO -->
+                        <header class="box-header">Países que aderiram</header>
+
+                        <!-- CONTAINER DO MEIO -->
+                        <div class="box-middle box-middle-table scroll-default">
+
+                            <table class="table-default">
+                                <thead>
+                                    <tr>
+                                        <th>ID país</th>
+                                        <th>País</th>
+                                        <th>Continente</th>
+                                        <th>Órgão de Saúde</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>120</td>
+                                        <td>Brazil</td>
+                                        <td>America do Sul</td>
+                                        <td>SUS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>111 </td>
+                                        <td>EUA</td>
+                                        <td>America do Norte</td>
+                                        <td>CDC</td>
+                                    </tr>
+                                    <tr>
+                                        <td>012 </td>
+                                        <td>Chine</td>
+                                        <td>Ásia</td>
+                                        <td>HLF</td>
+                                    </tr>
+                                    <tr>
+                                        <td>051</td>
+                                        <td>Inglaterra</td>
+                                        <td>Europa</td>
+                                        <td>IMS</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-bottom">
+                <a href="_ui-121.html">
+                    <button class="btn-default  d-grey">Voltar</button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

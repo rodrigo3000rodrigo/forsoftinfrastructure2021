@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="_assets/favicon-gs.svg" type="image/x-icon">
+    <link rel="stylesheet" href="_css/style-global.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <title>CIVA - Cadastrar nova dose</title>
+</head>
+<body id="container-manager">
+    <div id="container-menu">
+        <div class="profile-info">
+            <div class="photo-profile">
+            <img src="img/ui-032_default_user.svg" alt="">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>Cargo</p>
+        </div>
+        <nav class="menu-sidebar">
+            <ul>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-028.html" class="btn"><span class="material-icons-round">people_alt</span>Gerenciar usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-035.html"><span class="material-icons-round">contact_page</span>Gerenciar vacinação</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-037.html"><span class="material-icons-round">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-038.html"><span class="material-icons-round">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav> 
+    <!-- RODAPÉ MENU -->
+    <div class="container-rodape-menu"><a href=""><img src="_assets/icon-rodape-1.svg" alt="">CIVA F.A. © 2021</a></div>
+    </div>
+    <div id="container-main">
+     <div id="wrapper-main"> 
+        <header class="container-header">
+            <h3>Cadastrar nova dose</h3>
+        </header>
+        <!-- CONTAINER MIDDLE -->
+        <div class="container-middle">
+            <div class="box-container">
+                <!-- BOX LEFT -->
+                <div class="box-wrapper">
+                    <header class="box-header">Dados Dose</header>
+                <form class="box-middle box-middle-form" id="form-register-dose">
+                    <div class="input-container">
+                        <label for="vacina">Vacina</label>
+                        <input type="text" id="vacina" placeholder="Coronavac" class="input-default" disabled>
+                    </div>
+                    <div class="input-container">
+                        <label for="batch">Lote</label>
+                        <input type="text" id="batch" class="input-default" placeholder="Ex: 123456789">
+                    </div>
+                    <div class="input-container">
+                        <label for="lab">Laboratório</label>
+                        <input type="text" id="lab" placeholder="Sinovac" class="input-default" disabled>
+                    </div>
+                    <div class="input-container">
+                        <label for="">Data de aplicação</label>
+                        <input type="date" class="input-default" id="application-date">
+                    </div>
+                    <div class="input-container">
+                        <label for="dose">Número da dose</label>
+                        <input type="text" placeholder="2ª dose" class="input-default" id="dose" disabled>
+                    </div>
+                </div>
+            </div>
+     </div> 
+     <!-- BUTTONS -->
+     <div class="container-bottom">
+        <button class="btn-default d-grey" type="button" id="btn-return">Voltar</button>
+        <button class="btn-default d-coral" form="form-register-dose">Cadastrar</button>
+    </div>  
+   </form>
+    </div> 
+    <script defer src="_js/ui-032.js"></script>   
+    </body>
+</html>

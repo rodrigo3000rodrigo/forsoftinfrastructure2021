@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="shortcut icon" href="_assets/Logo.svg" type="image/x-icon">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="_css/style-global.css">
+    <!--Adicione ao título o nome da sua página-->
+    <title>CIVA - Cadastro Supervisor</title>
+</head>
+
+<body id="container-manager">
+
+    <div id="container-menu">
+
+        <!-- PERFIL USUARIO -->
+        <div class="profile-info">
+            <div class="photo-profile">
+                <img src="" alt="foto perfil">
+            </div>
+            <p class="name-user">Nome Sobrenome</p>
+            <p>GESTOR</p>
+        </div>
+
+        <!-- NAVEGAÇÃO ENTRE PAGINAS -->
+        <nav class="menu-sidebar">
+            <ul>
+                <li class="item-menu active-item-menu"><i></i><i></i>
+                    <a href="ui-084.html" class="btn"><span class="material-icons-round">people_alt</span>Gerenciar usuário</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-093.html"><span class="material-icons-round">place</span>Gerenciar unidade</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-096.html" class="btn"><span class="material-icons-round">contact_page</span>Gerenciar
+                        vacinação</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-098.html"><span class="material-icons-round">assessment</span>Painel relatório</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-099.html"><span class="material-icons-round">vaccines</span>Gerenciar vacina</a>
+                </li>
+                <li class="item-menu"><i></i><i></i>
+                    <a href="ui-102.html"><span class="material-icons-round">account_circle</span>Perfil</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- RODAPÉ MENU -->
+        <div class="container-rodape-menu"><a href="" class=""><img src="_assets/icon-civa-footer.svg" alt="">F.A. ©
+                2021</a></div>
+        <!--fim do menu-->
+    </div>
+
+    <div id="container-main">
+
+        <div id="wrapper-main">
+
+            <header class="container-header">
+                <h3>Painel Supervisor</h3>
+            </header>
+
+            <div class="container-middle">
+
+                <!-- CONTAINER BOX'S -->
+                <div class="box-container">
+                    <!-- CONTAINER BOX LEFT FORM -->
+                    <div class="box-wrapper">
+                        <!-- CONTAINER CABEÇALHO -->
+                        <header class="box-header">Dados Supervisor
+
+                            <!-- SELECT HEADER BOX -->
+                            <div class="input-container">
+                                <div class="select-default select-header-box">
+                                </div>
+                            </div>
+
+                        </header>
+                        <!-- CONTAINER DO MEIO -->
+                        <form id="form-cadastrosupervisor" class="box-middle box-middle-form scroll-default">
+
+                            <div class="input-container">
+                                <label for="">Nome</label>
+                                <input id="input1" type="text" value="Maria" class="input-default" id="name">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Sobrenome</label>
+                                <input id="input2" type="text" value="Almeida" class="input-default" id="id">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Código CIVA</label>
+                                <input id="input3" type="text" value="BRA5513456789" class="input-default"
+                                    id="birthdate">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Identidade</label>
+                                <input id="input4" type="text" value="123.456.789.01" class="input-default"
+                                    id="homeland">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Data de nascimento</label>
+                                <input id="input5" type="text" value="29/07/2021" class="input-default"
+                                    id="homeland">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">ID País</label>
+                                <input id="input6" type="text" value="5512345" class="input-default"
+                                    id="homeland">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">País de origem</label>
+                                <div class="select-default">
+                                    <select id="select1">
+                                        <option value="" selected disabled>Selecionar</option>
+                                        <option value="1" selected>Brasil</option>
+                                        <option value="2">Estados Unidos</option>
+                                        <option value="3">Canadá</option>
+                                        <option value="4">Austrália</option>
+                                    </select>
+                                    <span class="material-icons-round icon-select">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Estado</label>
+                                <div class="select-default">
+                                    <select id="select2">
+                                        <option value="" selected disabled>Selecionar</option>
+                                        <option value="1" selected>Rio de Janeiro</option>
+                                        <option value="2">São Paulo</option>
+                                        <option value="3">Minas Gerais</option>
+                                        <option value="4">Espírito Santo</option>
+                                        <option value="5">Mato Grosso</option>
+                                    </select>
+                                    <span class="material-icons-round icon-select">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Cidade</label>
+                                <div class="select-default">
+                                    <select id="select3">
+                                        <option value="" selected disabled>Selecionar</option>
+                                        <option value="1">Rio de Janeiro</option>
+                                        <option value="2" selected>Niterói</option>
+                                        <option value="3">Duque de Caxias</option>
+                                        <option value="4">São Gonçalo</option>
+                                        <option value="5">Petrópolis</option>
+                                        <option value="6">Queimados</option>
+                                    </select>
+                                    <span class="material-icons-round icon-select">expand_more</span>
+                                </div>
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Logradouro</label>
+                                <div class="container-row">
+                                    <div class="select-default input-address">
+                                        <select id="select4">
+                                            <option value="1" selected>AV.</option>
+                                            <option value="2">R.</option>
+                                            <option value="3">TV.</option>
+                                            <option value="4">VL.</option>
+                                            <option value="5">JD.</option>
+                                        </select>
+                                        <span class="material-icons-round icon-select">expand_more</span>
+                                    </div>
+                                    <input id="input7" type="text" value="Jansen de Melo" class="input-default input-street">
+                                </div>
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Contato</label>
+                                <div class="container-row-number">
+                                    <input id="input8" type="text" value="55+"
+                                        class="input-default input-number-ddi">
+                                    <input id="input9" type="text" value="(21) 9 1234-5678"
+                                        class="input-default input-number-cel">
+                                </div>
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Email</label>
+                                <input id="input10" type="email" value="maria@gmail.com" class="input-default">
+                            </div>
+
+
+                        </form>
+                        <!-- CONTAINER INFERIOR BOTOES -->
+                        <div class="box-bottom">
+                            <div class="toggle-container">
+                                <div class="toggle-btn">
+                                    <div class="inner-circle"></div>
+                                    <span class="toggle-name">Ativado</span>
+                                </div>
+                            </div>
+                            <a href="ui-085.html"><button class="btn-default btn-small d-grey-out" style="width: initial;">Redefinir
+                                senha</button></a>
+                            <button class="btn-default btn-small d-red">Excluir</button>
+                        </div>
+                    </div>
+
+                    <!-- CONTAINER BOX RIGHT TABLE-->
+                    <div class="box-wrapper">
+                        <!-- CONTAINER CABEÇALHO -->
+                        <header class="box-header">Unidades Vinculadas</header>
+
+                        <!-- CONTAINER DO MEIO -->
+                        <div class="box-middle box-middle-table scroll-default">
+
+                            <table class="table-default">
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Estado</th>
+                                        <th>CP</th>
+                                        <th>Identificador</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Hopital Pan</td>
+                                        <td>Rio de Janeiro</td>
+                                        <td>12016-102</td>
+                                        <td>215648</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hopital Pan</td>
+                                        <td>Rio de Janeiro</td>
+                                        <td>12016-102</td>
+                                        <td>215648</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hopital Pan</td>
+                                        <td>Rio de Janeiro</td>
+                                        <td>12016-102</td>
+                                        <td>215648</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hopital Pan</td>
+                                        <td>Rio de Janeiro</td>
+                                        <td>12016-102</td>
+                                        <td>215648</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hopital Pan</td>
+                                        <td>Rio de Janeiro</td>
+                                        <td>12016-102</td>
+                                        <td>215648</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <!-- CONTAINER INFERIOR BOTOES -->
+                        <div class="box-bottom">
+
+                            <button class="btn-default btn-small d-green">Vincular Unidade</button>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!--final box-->
+            </div>
+
+            <div class="container-bottom">
+                <a href="ui-083.html"><button id="voltar" type="button" class="btn-default btn-medium d-grey">Voltar</button></a>
+                <button type="submit" form="form-cadastrosupervisor" class="btn-default btn-medium d-coral">Salvar</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="_js/ui-084.js"></script>
+</body>

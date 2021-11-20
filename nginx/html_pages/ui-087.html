@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ICONES -->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+            rel="stylesheet">
+        <!-- ESTILOS -->
+            <link rel="stylesheet" href="_css/ui-087.css">
+            <link rel="stylesheet" href="_css/ui-087-btn.css">
+
+            <link rel="shortcut icon" href="_assets/favicon.ico" type="image/x-icon">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel= "stylesheet">
+
+        <!--Adicione ao título o nome da sua página-->
+            <title>CIVA - Cadastrar Profissional da Saúde </title>
+    </head>
+    <body id="container-manager">
+
+        <div id="container-menu">
+                            
+    <!-- PERFIL USUARIO -->
+    <div class="profile-info">
+        <div class="photo-profile">
+            <img src="" alt="foto perfil">
+            </div>
+        <p class="name-user">Nome Sobrenome</p>
+        <p>Cargo</p>
+    </div>
+
+    <!-- NAVEGAÇÃO ENTRE PAGINAS -->
+    <nav class="menu-sidebar">
+        <ul>
+            <li class="item-menu active-item-menu"><i></i><i></i>
+                <a href="#" class="btn"><span class="material-icons-round">people_alt</span>Gerenciar usuário</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="#"><span class="material-icons-round">place</span>Gerenciar unidade</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="#"><span class="material-icons-round">contact_page</span>Gerenciar vacinação</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="#"><span class="material-icons-round">assessment</span>Painel relatório</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="#"><span class="material-icons-round">vaccines</span>Gerenciar vacina</a>
+            </li>
+            <li class="item-menu"><i></i><i></i>
+                <a href="#"><span class="material-icons-round">account_circle</span>Perfil</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- RODAPÉ MENU -->
+    <div class="container-rodape-menu"><a href="" class=""><img src="_assets/icon-civa-footer.svg" alt="">F.A. © 2021</a></div>
+
+        
+        </div>
+    
+            <div id="container-main">
+    
+                <div id="wrapper-main">
+    
+                    <header class="container-header">
+                        <h3>Cadastrar Profissional de Saúde</h3>
+                    </header>
+
+                    <div class="container-middle">
+
+                        <div class="box-container">
+                            <!-- CONTAINER BOX LEFT FORM --> 
+                            <div class="box-wrapper">
+                            <!-- CONTAINER CABEÇALHO --> 
+                            <header class="box-header">
+                        
+                                Dados Profissional de Saúde
+                        
+                            </header>
+                            <!-- CONTAINER DO MEIO -->
+                            <form id="form-register-profissionalsaude" class="box-middle box-middle-form scroll-default"> 
+                        
+                                
+<div class="input-container">
+<label for="name">Nome</label>
+<input id="name" type="text" placeholder="Ex: Maria" class="input-default">
+</div>
+
+<div class="input-container">
+<label for="last-name">Sobrenome</label>
+<input id="last-name" type="text" placeholder="Ex: Almeida" class="input-default">
+</div>
+
+<div class="input-container">
+<label for="identify">Identidade</label>
+<input id="identify" type="text" placeholder="000.000.000-00" class="input-default">
+</div>
+
+<div class="input-container">
+<label for="date-birth">Data de nascimento</label>
+<input id="date-birth" type="date" class="input-default">
+</div>
+
+<div class="input-container">
+<label for="IDunity">ID Unidade</label>
+<input id="IDunity" type="text" placeholder="Ex: 123456" class="input-default">
+</div>
+
+<div class="input-container">
+<label for="crm">CRM</label>
+<input id="crm" type="text" placeholder="Ex: 1234/RJ" class="input-default">
+</div>
+
+<div class="input-container">
+<label for="country">Label</label>
+<div class="select-default">
+<select required id="country">
+<option value="" selected disabled>Selecionar</option>
+<option value="1">Brasil</option>
+<option value="2">EUA</option>
+<option value="3">Alemanha</option>
+</select>
+<span class="material-icons-round icon-select">expand_more</span>
+</div>
+</div>
+
+<div class="input-container">
+<label for="subdivision-1">Subdivisão 1</label>
+<div class="select-default">
+<select required id="subdivision-1">
+<option value="" selected disabled>Selecionar</option>
+<option value="1">Rio de Janeiro</option>
+<option value="2">São Paulo</option>
+<option value="3">Minas Gerais</option>
+</select>
+<span class="material-icons-round icon-select">expand_more</span>
+</div>
+</div>
+
+<div class="input-container">
+<label for="subdivision-2">Subdivisão 2</label>
+<div class="select-default">
+<select required id="subdivision-2">
+<option value="" selected disabled>Selecionar</option>
+<option value="1">Rio de Janeiro</option>
+<option value="2">Niterói</option>
+<option value="3">São Gonçalo</option>
+</select>
+<span class="material-icons-round icon-select">expand_more</span>
+</div>
+</div>
+
+<div class="input-container">
+<label for="address">Endereço</label>
+<div class="container-row">
+<div class="select-default input-address">
+<select required id="address">
+<option value="1" selected>R.</option>
+<option value="2">Av.</option>
+</select>
+<span class="material-icons-round icon-select">expand_more</span>
+</div>
+<input id="street" type="text" placeholder="Ex: Rio Branco" class="input-default input-street" >
+</div>
+</div>
+
+<div class="input-container">
+<label for="contact">Contato</label>
+<div class="container-row-number">
+<input id="contact-ddi" type="text" placeholder="55+" class="input-default input-number-ddi">
+<input id="contact-cel" type="text" placeholder="(00) 9 0000-0000" class="input-default input-number-cel">
+</div>
+</div>
+
+<div class="input-container">
+<label for="email">Email</label>
+<input id="email" type="text" placeholder="Ex: 1234/RJ" class="input-default">
+</div>
+                        
+</form>
+                        
+                        </div>
+                        
+                        
+                          
+                        </div>
+                    
+                    
+                    
+
+                    </div>
+      
+
+                    <div class="container-bottom">
+                        <a href=""><button class="btn-default d-grey">Voltar</button></a>
+                        <button form="form-register-profissionalsaude" class="btn-default d-coral" form="">Cadastrar</button>
+                    </div>
+                    
+                </div>    
+    
+            </div>
+    </body>
+<script src="_js/ui-087.js"></script>
+</html>
