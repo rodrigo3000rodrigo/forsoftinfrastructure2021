@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ICONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="_CSS/global-styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>CIVA - Cadastrar</title>
+    <script type="text/javascript" src="_js/ui-005.js"></script>
+</head>
+
+<body id="container-portador">
+
+<div id="container-portador-content">
+
+    <div id="container-main-content">
+      <div class="painel-cadastrar">
+        <form id="form-cad" method="post" action="ui-006.html">  
+            <h1>Cadastrar</h1>
+            <div class="box-input">
+                <div class="box-1">
+                    <div class="input-container">   
+                        <label for="">Nome</label>
+                        <input type="text" id="nome" placeholder="Nome" class="input-default-portador input-blue">
+                    </div>
+                    <div class="input-container">
+                        <label for="">Sobrenome</label>
+                        <input type="text" id="sobrenome" placeholder="Sobrenome" class="input-default-portador input-blue">
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="input-container">
+                        <label for="">Identidade</label>
+                        <input type="text" id="cpf" placeholder="000.000.000-00" class="input-default-portador input-blue">
+                    </div>
+                    <div class="input-container">
+                        <label for="">Data de nascimento</label>
+                        <input type="text" id="nascimento" placeholder="00/00/00" class="input-default-portador input-blue">
+                    </div>
+                </div>
+                <div class="box-3">
+                    <div class="input-container">
+                        <label for="">País de origem</label>
+                        <div class="select-default">
+                            <select required>
+                                <option value Selected disable>Selecionar</option>
+                                <option value="1">Brasil</option>
+                                <option value="2">Eua</option>
+                                <option value="3">Argentina</option>
+                                <option value="4">-------</option>
+                            </select>
+                            <span class="material-icons">expand_more</span>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="">Subdvisão 1</label>
+                        <div class="select-default">
+                            <select required>
+                                <option value Selected disable>Selecionar</option>
+                                <option value="1">Rio de Janeiro</option>
+                                <option value="2">São Paulo</option>
+                                <option value="3">Minas Gerais</option>
+                                <option value="4">Espírito Santo</option>
+                                <option value="5">Mato Grosso</option>
+                                <option value="6">-------</option>
+                            </select>
+                            <span class="material-icons">expand_more</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-4">
+                    <div class="input-container">
+                        <label for="">Subdivisão 2</label>
+                        <div class="select-default">
+                            <select required>
+                                <option value Selected disable>Selecionar</option>
+                                <option value="1">Rio de Janeiro</option>
+                                <option value="2">Niterói</option>
+                                <option value="3">Duque de Caxias</option>
+                                <option value="4">São Gonçalo</option>
+                                <option value="5">Petrópolis</option>
+                                <option value="6">-------</option>
+                                <option value="7">-------</option>
+                            </select>
+                            <span class="material-icons">expand_more</span>
+                        </div>
+                    </div>
+                    <div class="input-container-duplo">
+                        <label for="">Lougradoro</label>
+                        <div class="input-container-duplo-conteudo">
+                        <div class="select-default mini">
+                            <select required>
+                                <option value="1">AV.</option>
+                                <option value="2">R.</option>
+                                <option value="3">TV.</option>
+                                <option value="4">VL.</option>
+                                <option value="4">JD.</option>
+                            </select>
+                            <span class="material-icons">expand_more</span>
+                        </div>
+                        <input type="text" id="endereco" placeholder="Rio Branco" class="input-default-duplo endereco">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-5">
+                    <div class="input-container-duplo">
+                        <label for="">Contato</label>
+                        <div class="input-container-duplo-conteudo">
+                        <input type="text" id="cod" placeholder="55+" class="input-mini" maxlength="3">
+                        <input type="text" id="tel" placeholder="(00) 9 0000-0000" class="input-default-duplo">
+                        </div>
+                    </div> 
+                    <div class="input-container">
+                        <label for="">Email</label>
+                        <input type="email" id="email" placeholder="Ex: nome@mail.com" class="input-default-portador input-blue">
+                    </div>
+                </div>
+                <div class="box-6">
+                    <div class="input-container">
+                        <label for="">Senha</label>
+                        <input type="password" id="password" placeholder="***************" class="input-default-portador input-blue">
+                    </div>
+                    <div class="input-container">
+                        <label for="">Confirmação</label>
+                        <input type="password" id="password-confirm" placeholder="***************" class="input-default-portador input-blue">
+                    </div>
+                </div>
+            </div>
+            <div class="text-criar-conta">
+                <p><input type="checkbox" id="checkbox" required> Li e concordo com os <a>Termos de Uso</a> e <a>Política de Privacidade</a></p>
+            </div>
+            
+            <div class="text-entrar-btn-cadastrar">
+                <p>Já tem uma conta?<a href="ui-004.html"> Entrar</a></p>
+                <button type="submit" value="enviar" class="btn-default-cadastrar d-blue">Cadastrar</button>
+            </div>
+                <!-- <div class="modalcad" id="modalcad" tabindex="-1">
+                    <a href="#" class="modalcad-tamanho" aria-label="Fechar"></a>
+                    <div class="modalcad-conteudo">
+                        <div class="modalcad-baixo">
+                            <a href="#" class="modalcad-botao" aria-label="Fechar"><span class="material-icons">clear</span></a>
+                        </div>
+                        <div class="container-textos">
+                            <h6>Termos de uso e politicas de pirvacidade</h6>
+                            <p> Lorem ipsum dolor sit amet. Hic consequatur tenetur et ipsum commodi ad dolorum autem ad fugiat pariatur et minima laudantium est quae nihil. Sit quae facilis aut modi molestiae eos dicta animi sit repudiandae veritatis sed
+                                neque maiores. Lorem ipsum consectetur etiam viverra primis tortor dictum egestas nam urna ut, et in dictum dui morbi nulla. dui dictumst.
+                            </p>
+                            <h5>1. Lorem ipsum</h5>
+                            <p>
+                                11.Lorem ipsum consectetur etiam viverra primis tortor dictum egestas nam urna ut, et in dictum dui morbi nulla enim at cursus aenean. dictum interdum orci euismod fames sagittis lacus aliquet, vehicula pharetra et praesent torquent tincidunt, primis
+                                dictumst faucibus cursus posuere neque. mauris vel quisque aptent sollicitudin arcu dolor, quisque ornare aliquam justo tortor. 12. class senectus mattis cras duis. lectus est leo euismod potenti felis fames feugiat consequat
+                                pellentesque, nec hac mi ad netus a conubia massa tellus bibendum, iaculis tempus at nisl metus nisi quam cursus. condimentum risus bibendum vestibulum leo torquent etiam, quisque gravida feugiat tortor sapien, sociosqu
+                                convallis netus dui dictumst.
+                            </p>
+                            <h5>1. Lorem ipsum</h5>
+                            <p>
+                                1.Lorem ipsum consectetur etiam viverra primis tortor dictum egestas nam urna ut, et in dictum dui morbi nulla enim at cursus aenean. dictum interdum orci euismod fames sagittis lacus aliquet, vehicula pharetra et praesent torquent tincidunt, primis dictumst
+                                faucibus cursus posuere neque. mauris vel quisque aptent sollicitudin arcu dolor, quisque ornare aliquam justo tortor. 12. class senectus mattis cras duis. lectus est leo euismod potenti felis fames feugiat consequat pellentesque,
+                                nec hac mi ad netus a conubia massa tellus bibendum, iaculis tempus at nisl metus nisi quam cursus. condimentum risus bibendum vestibulum leo torquent etiam, quisque gravida feugiat tortor sapien, sociosqu convallis netus
+                                dui dictumst.
+                            </p>
+
+                            <h5>2. Lorem ipsum</h5>
+
+                        </div>
+
+                    </div>
+                </div> -->
+        </form>
+        </div>
+    <div class="container-background-right">
+    <img src="_assets/background-login.svg" alt="layout_welcome">
+    </div>
+
+
+</div>
+<footer class="footer-civa"><img src="_assets/civa-logo-footer.svg">CIVA&nbsp;<copy1>&#169;</copy1>&nbsp;2021</footer>
+</div>
+ 
+</body>
+
+</html>

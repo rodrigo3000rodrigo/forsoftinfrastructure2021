@@ -1,0 +1,37 @@
+div.manager-bar {
+  display:flex;
+  height:40px;
+  width:1075px;
+  align-items:center;
+  justify-content:space-between;
+  position:relative;
+}
+div.manager-bar p {
+  display:inline;
+  justify-content:space-between;
+  margin-left:32px;
+  cursor:pointer;
+}
+div.manager-bar p:last-child {
+  margin-left:50px;
+}
+div.manager-bar span.icon-1 {
+  left:5px;
+  top:10px;
+  position:absolute;
+  cursor:pointer;
+}
+div.manager-bar span.icon-2{
+  left:190px;
+  top:10px;
+  position:absolute;
+  cursor:pointer;
+}
+div.pagination-nav {
+  margin-left:350px;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+}

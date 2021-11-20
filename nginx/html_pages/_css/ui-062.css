@@ -1,0 +1,55 @@
+.input-default::-webkit-input-placeholder {
+  
+  font-size: 14px !important;
+}
+
+.input-default:-ms-input-placeholder {
+  
+  font-size: 14px !important;
+}
+
+.input-default::-ms-input-placeholder {
+ 
+  font-size: 14px !important;
+}
+
+.input-default::placeholder {
+  
+  font-size: 14px !important;
+}
+
+
+.codigo-pais {
+    height: 40px;
+    width: 57px;
+    
+    
+   }
+  
+  .telefone{
+    height: 40px;
+    width: 140px;
+  }
+  
+  .input-default-2 {
+    justify-content: flex-start;
+  
+  }
+
+  .container-middle #cadastro-unidade .input-container label{
+    color: #133C55;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .container-middle #cadastro-unidade .input-container-2 label{
+    color: #133C55;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .container-middle #cadastro-unidade .input-container-2 input::placeholder{
+    color: #133C55;
+  }

@@ -1,0 +1,42 @@
+.alinhamento{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom:20px;
+    
+}
+
+.alinhamento-icone{
+display:flex;
+flex-direction:row;
+align-items:center;
+}
+
+.alinhamento-icone span{
+  margin-right: 5px;
+}
+
+.link-wrap{
+    display: flex;
+    flex-direction:row;  
+}
+
+.link-wrap a {
+
+    margin-right:30px;
+}
+
+.container-rodape-menu{
+    margin-left: 40px;
+  }
+
+  a.icon-rodape{
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .icon-rodape img{
+    position: relative;
+    top: 3px;
+    width: 16px;
+}

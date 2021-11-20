@@ -1,0 +1,106 @@
+div.manager-bar {
+    display:flex;
+    height:40px;
+    width:1075px;
+    align-items:center;
+    justify-content:space-between;
+    position:relative;
+}
+div.manager-bar p {
+    display:inline;
+    justify-content:space-between;
+    margin-left:32px;
+    cursor:pointer;
+}
+div.manager-bar p:last-child {
+    margin-left:50px;
+}
+div.manager-bar span.icon-1 {
+    left:5px;
+    top:10px;
+    position:absolute;
+    cursor:pointer;
+}
+div.manager-bar span.icon-2{
+    left:190px;
+    top:10px;
+    position:absolute;
+    cursor:pointer;
+}
+div.pagination-nav {
+    margin-left:350px;
+}
+.large-input{
+    width: 100%;
+}
+.container-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.codigo-pais {
+    height: 40px;
+    width: 59px;
+   }
+  
+  .telefone{
+    height: 40px;
+    width: 140px;
+  }
+  
+  .input-default-2 {
+    justify-content: flex-start;
+  
+  }
+
+  .input-default::-webkit-input-placeholder {
+  
+    font-size: 14px !important;
+  }
+  
+  .input-default:-ms-input-placeholder {
+    
+    font-size: 14px !important;
+  }
+  
+  .input-default::-ms-input-placeholder {
+   
+    font-size: 14px !important;
+  }
+  
+  .input-default::placeholder {
+    
+    font-size: 14px !important;
+  }
+
+  .box-bottom {
+      margin-top: 20px !important;
+      
+  }
+
+  .box-middle .input-container label{
+    color: #133C55;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .box-middle .input-container-2 label{
+    color: #133C55;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .container-middle .input-container input::placeholder{
+    color: #133C55;
+  }
+
+
+  .container-middle .input-container-2 input::placeholder{
+    color: #133C55;
+  }
+
+  

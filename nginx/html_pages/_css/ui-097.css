@@ -1,0 +1,7 @@
+
+.container-middle {
+  display: flex; /*Adicionei para deixar os boxes lado a lado*/
+  flex-direction: row; /*Adicionei para deixar os boxes lado a lado*/
+  justify-content: space-between; /*Adicionei para deixar os boxes lado a lado*/
+}
+

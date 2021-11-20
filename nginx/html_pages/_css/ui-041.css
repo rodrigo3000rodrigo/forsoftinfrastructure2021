@@ -1,0 +1,16 @@
+/* ajeitar a tabela, pra n precisar ter que mecher nos style global */
+
+.tr-white{
+    background-color: white !important;
+}
+.container-middle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.box-middle-max {
+    height: 800px;
+}

@@ -1,0 +1,20 @@
+
+
+.d-grey {
+  margin-right: 50px; /*Adicionei para separar os botões*/
+}
+
+.container-middle {
+  display: flex; /*Adicionei para deixar os boxes lado a lado*/
+  flex-direction: row; /*Adicionei para deixar os boxes lado a lado*/
+  justify-content: space-between; /*Adicionei para deixar os boxes lado a lado*/
+  width: 100%;
+  height: 100%;
+}
+
+#id-unidade{
+  background-color: #E8E8E8; 
+}
+.input-default::placeholder{
+  color: #133C55;
+}

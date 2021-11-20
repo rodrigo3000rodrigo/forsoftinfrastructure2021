@@ -1,0 +1,6 @@
+/* Para evitar rolagem desnecessaria na pagina e ficar de acordo com o figma
+(que as telas não possuem rolagem), foi modificado o height do box-wrapper*/
+
+.box-wrapper {
+  height: 425px !important;
+}

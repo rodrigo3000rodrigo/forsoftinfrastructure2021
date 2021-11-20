@@ -1,0 +1,35 @@
+.alinhamento{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom:20px;
+    
+}
+
+.alinhamento-icone{
+display:flex;
+flex-direction:row;
+align-items:center;
+}
+
+.alinhamento-icone span{
+  margin-right: 5px;
+}
+
+.link-wrap{
+    display: flex;
+    flex-direction:row;  
+}
+
+.link-wrap a {
+
+    margin-right:30px;
+}
+
+.container-bottom {
+    width: 100%;
+    /* se o bottom tiver páginação, siga a seguinte formatação para centralizar */
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }

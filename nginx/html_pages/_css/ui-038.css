@@ -1,0 +1,89 @@
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+/* .space{
+    text-align: center;
+} */
+
+#container-main{
+    margin: 0;
+}
+#container-main #wrapper-main .box-wrapper li{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #133C55;
+}
+#container-main #wrapper-main .box-wrapper{
+    width: 100%;
+    box-shadow: none;
+}
+#container-main #wrapper-main{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px 30px;
+    width: 100%;
+}
+
+.space{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.space > div{
+    margin: 5px;
+}
+
+.container-bottom{
+    justify-content: flex-start;
+    width: 450px;
+    margin: 30px;
+}
+#container-main{
+    flex-direction: column;
+}
+.btns{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.export-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    height: 40px;
+    margin: 0 0 30px;
+}
+
+.export{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: fit-content;
+    /* align-self: center; */
+}
+.export a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: fit-content;
+    margin: 0;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #133C55;
+    margin: 0 0 30px;
+
+}
+
+.export span{
+    margin: 0;
+    padding: 0 6px 0 0;
+    width: 30px;
+}

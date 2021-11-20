@@ -1,0 +1,14 @@
+.codigo-pais {
+    height: 40px;
+    width: 60px;
+   }
+  
+.telefone{
+    height: 40px;
+    width: 140px;
+  }
+  
+.input-default-2 {
+    justify-content: flex-start;
+  
+  }

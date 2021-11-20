@@ -1,0 +1,23 @@
+
+/* MENU DE NAVEGAÇÃO SEM NENHUMA OPÇÃO MARCADA */
+.menu-superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container-bottom {
+  width: 100%;
+  /* se o bottom tiver páginação, siga a seguinte formatação para centralizar */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*# sourceMappingURL=style-global.css.map */
+#export{
+  vertical-align: middle;
+    font-size: 25px;
+
+}

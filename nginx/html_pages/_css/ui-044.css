@@ -1,0 +1,33 @@
+.double-container label{
+    display: block;
+  }
+  .double-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .input-tworeduced{
+    display: block;
+    height: 40px;
+    width: 60px;
+    margin-right: 9px;
+  }
+  .input-reduced{
+    display: flex;
+    width: 131px;
+    height: 40px;
+  }
+  .input-full-container{
+    width: 410px;
+  }
+  .input-tworeduced2{
+    display: block;
+    height: 40px;
+    width: 63px;
+    margin-right: 9px;
+  }
+  .input-reduced2{
+    display: flex;
+    width: 128px;
+    height: 40px;
+  }

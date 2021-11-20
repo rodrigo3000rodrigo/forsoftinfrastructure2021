@@ -1,0 +1,95 @@
+.btn-tabela button{
+    width:200px;
+    height:40px;
+    border-radius: 7px;
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 600;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right:20px;
+  
+  }
+  
+  .btn-salvar{
+      background-color: #FF7E66;
+      color: #ffffff;
+  }
+  
+  
+  
+  .btn-voltar{
+      background-color:#EEEEEE;
+      color:#606060;
+  
+  }
+  
+  .btn-voltar:hover{
+      background-color:#dfdfdf
+  }
+  
+  .btn-salvar{
+      background-color: #FF7E66;
+      color: #ffffff;
+  }
+  
+    
+    .btn-salvar:hover {
+       background-color: #FF9582;
+      
+    }
+    
+    .btn-salvar:active {
+      background-color: #FFEDE3;
+    }  
+
+    .space{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0px;
+    }
+    .space > div{
+        margin: 5px;
+    }
+    #container-main{
+        position:relative;
+        top: -75px;
+        
+    }
+    .double-container label{
+        display: block;
+      }
+      .double-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+      .input-tworeduced{
+        display: block;
+        height: 40px;
+        width: 60px;
+        margin-right: 9px;
+      }
+      .input-reduced{
+        display: flex;
+        width: 131px;
+        height: 40px;
+      }
+      .input-full-container{
+        width: 410px;
+      }
+      .input-tworeduced2{
+        display: block;
+        height: 40px;
+        width: 63px;
+        margin-right: 9px;
+      }
+      .input-reduced2{
+        display: flex;
+        width: 128px;
+        height: 40px;
+      }

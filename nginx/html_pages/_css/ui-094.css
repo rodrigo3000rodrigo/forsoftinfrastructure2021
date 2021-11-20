@@ -1,0 +1,82 @@
+.container-header{
+    display: inline-block;
+    margin: 15px 0 30px;
+}
+/* .space{
+    text-align: center;
+} */
+
+.box-header{
+    justify-content: space-between;
+}
+
+.box-header select{
+    background-color: white;
+    height: 20px;
+    border-radius: 7px;
+}
+#container-manager #wrapper-main{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.space{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.space > div{
+    margin: 5px;
+}
+
+.container-bottom{
+    justify-content: flex-start;
+    width: 450px;
+   /*  margin: 0px; margin de 30px retirada para alinhar a esquerda. Diego Sampaio*/ 
+}
+#container-main{
+    flex-direction: column;
+    margin: 0 30px 30px;
+}
+.btns{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.export-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    height: 40px;
+    margin: 0 0 30px;
+}
+
+.export{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: fit-content;
+    /* align-self: center; */
+}
+.export a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: fit-content;
+    margin: 0;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #133C55;
+    margin: 0 0 30px;
+
+}
+
+.export span{
+    margin: 0;
+    padding: 0 6px 0 0;
+    width: 30px;
+}
